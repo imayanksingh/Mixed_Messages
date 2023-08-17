@@ -1,9 +1,4 @@
 
-import { messageBox } from "./modules/randomArray.js";
-import { arrMessage1,arrMessage2,arrMessage3 } from "./modules/arrayList.js";
-
-import 
-/*
 function messageBox(){
 let messages=[arrMessage1,arrMessage2,arrMessage3]
 
@@ -18,7 +13,7 @@ const arrMessage1=["LOL – laughing out loud.",'OMG – oh my god',"IMHO – in
 const arrMessage2 = ['Impossible is for the unwilling.',"No pressure, no diamonds.","Dream big and dare to fail.","Excuses are the nails used to build a house of failure."];
 
 const arrMessage3=['Representative Binks of Naboo.','Something’s wrongo here.','Whaten dey speaking?', 'Hmmm—yousa point is well seen'];
-*/
+
 function randomMsg(messageBox){
     let textArray=messageBox;
 let msgNum= Math.floor(Math.random()*(textArray.length))
